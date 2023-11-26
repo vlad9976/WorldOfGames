@@ -20,8 +20,8 @@ service:
       port: 3306  # Default MySQL port
       targetPort: 3306
     - name: custom-port
-      port: 3307  # Your custom port
-      targetPort: 3307
+      port: 3306  # Your custom port
+      targetPort: 3306
 
 ingress:
   enabled: true

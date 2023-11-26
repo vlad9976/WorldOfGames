@@ -15,7 +15,7 @@ spec:
         app: {{ include "mysql-chart.name" . }}
     spec:
       containers:
-        - name: {{ .Value.mysql.containerName }}
+        - name: {{ .Values.mysql.containerName }}
           image: {{ .Values.mysql.image }}
           env:
             - name: MYSQL_ROOT_PASSWORD

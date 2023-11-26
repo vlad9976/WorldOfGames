@@ -5,7 +5,7 @@ def add_score(user, difficulty):
 
     # Create a MySQL connection
     connection = mysql.connector.connect(
-        host='git-pro-mysql-1',
+        host='mysql-mysql-chart',
         user='mysql',
         password='Aa123456!',
         database='games'
@@ -36,3 +36,4 @@ def add_score(user, difficulty):
     connection.close()
 
     print("Score successfully updated for user:", user)
+add_score("testx",12)

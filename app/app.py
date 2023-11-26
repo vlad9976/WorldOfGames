@@ -8,7 +8,7 @@ def get_user_scores():
     try:
         # Create a MySQL connection
         connection = mysql.connector.connect(
-            host='git-pro-mysql-1',
+            host='mysql-mysql-chart',
             user='mysql',
             password='Aa123456!',
             database='games'
