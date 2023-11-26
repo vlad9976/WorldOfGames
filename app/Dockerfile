@@ -14,8 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 ENV FLASK_APP app.py
 ENV FLASK_RUN_HOST 0.0.0.0
 
-# Create a directory to mount the scores
-RUN mkdir -p /app/scores
 
 # Command to run the application
 CMD ["python3", "Main_Game.py"]

@@ -4,7 +4,7 @@ flaskapp:
   replicaCount: 1
   image:
     repository: vlad9976m/my_flask_app
-    tag: v1.27
+    tag: v1.28
     pullPolicy: IfNotPresent
   containerName: my-flask-application
   environment:

@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS games;
+
 USE games;
 
 CREATE TABLE IF NOT EXISTS users_scores (
